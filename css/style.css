@@ -1,0 +1,53 @@
+/* IMPORTATION DE LA POLICE RALEWAY */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
+
+/* PROPRIÉTÉS GÉNÉRALES */
+:root {
+      --white: white; /* Blanc pour le fond du site */
+      --grey:#eeeeee; /* Gris pour le fond de certaines sections */
+      --black: #000;/* Couleur principale du texte*/
+      --blue: #0065fc;/* Couleur bleu foncé */
+      --lightblue: #DEEBFF;/* Couleur bleu clair */
+      --font: "Raleway", "sans-serif";/* Police */
+}
+*, ::before, ::after {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+body {
+       margin: auto;
+       font-family: var(--font);
+       background-color:var(--white);
+       color: #000;
+       font-size: 16px;
+}
+a {
+       text-decoration : none;
+       color: inherit;
+}
+em {
+       font-weight: bold;
+}
+p {
+       font-family: var(--font);  
+}
+li {
+       list-style-type: none;
+}
+/* Design des étoiles de notation*/
+.fa-star {
+       font-size: 0.7em;
+       margin: -2px;
+}
+.blue {
+  color: var(--blue);
+}
+.grey {
+  color:var(--grey);
+}
+/* Animation des cartes au survol */
+.hosts_card:hover, .pop_hosts_card:hover, .activities_card:hover {
+       transform: scale(1.03);
+}
+
