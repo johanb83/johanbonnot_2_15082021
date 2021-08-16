@@ -59,6 +59,7 @@ li {
 }
 .logo {
        margin: 20px 10px;
+       cursor: pointer;
 }
 .navbar_list {
        display: flex;
