@@ -51,7 +51,7 @@ li {
        transform: scale(1.03);
 }
 
-/********************************HEADER***************************/
+/*********************** HEADER ***************************/
 .header {
        position: relative;
        max-width: 1368px;
@@ -137,7 +137,7 @@ li {
        }
 }
 
-/****************************MAIN***************************/
+/*************************** MAIN **************************/
 main {
        display: grid;
        grid-template-columns: 100%;
@@ -279,8 +279,10 @@ main {
        transform: scale(1.05);
 }
 .filters_btn em::before {
-       position: relative;
-       top:15px;
+       position: absolute;
+       left: 50%;
+       top: 50%;
+       transform: translate(-50%, -50%);
 }
 .filters_icon {
        display: block;
@@ -378,14 +380,14 @@ main {
 .hosts_title {
        font-size: 1.2em;
        font-weight: bold;
-       margin-bottom:20px;
+       margin-bottom:30px;
 }
 .hosts_list {
        display: flex;
        flex-direction: column;
        justify-content: space-between;
-       gap:15px;
-       margin-bottom :20px
+       gap:25px;
+       margin-bottom :20px;
 }
 .hosts_card {
        display: block;
@@ -399,7 +401,7 @@ main {
        padding:5px;
 }
 .hosts_img {
-       width: 100%;
+      width: 100%;
        height: 60%;
        object-fit: cover;
        border-radius: 13px 13px 0 0;
@@ -421,7 +423,8 @@ main {
 .read_more {
        font-size: 0.9em;
        font-weight: 700;
-       display: inline;
+       display: block;
+       margin-top: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -439,6 +442,7 @@ main {
        }
        .hosts_card {
               width: 30%;
+              margin: 0;
        }
        .hosts__title {
               font-size: 0.8em;
@@ -452,6 +456,10 @@ main {
        .hosts__title {
               font-size: 0.8em;
               line-height: 1.4em;
+       }
+        .hosts_card {
+              width: 30%;
+              margin: 0;
        }
 }
 
@@ -467,7 +475,7 @@ main {
        display: flex;
        justify-content: space-between;
        font-size: 1.2em;
-       margin-bottom: 22px;
+       margin-bottom: 30px;
        font-weight: bold;
 }
 .pop_hosts_card {
@@ -475,7 +483,7 @@ main {
        max-width: 500px;
        height: 180px;
        border-radius: 13px;
-       margin: 0 auto 15px auto;
+       margin: 0 auto 25px auto;
        box-shadow: 0 8px 15px #00000020;
        background-color: #fff;
        padding:5px;
@@ -516,13 +524,13 @@ main {
        .pop_hosts_list {
               display: flex;
               justify-content: space-between;
-              gap: 22px;
        }
        .pop_hosts_card {
               display: flex;
               flex-direction: column;
               width: 30%;
               height: 180px;
+              margin: 0;
        }
        .pop_hosts_img {
               width: 100%;
@@ -553,13 +561,14 @@ main {
               border-radius:20px;
        }
        .pop_hosts_list {
-              display: block;
+              display: flex;
+              flex-direction: column;
+              row-gap: 25px;
        }
        .pop_hosts_card {
               width: 100%;
               max-height: 140px;
               flex-direction: row;
-              margin-bottom: 30px;
        }
        .pop_hosts_img {
               width: 145px;
@@ -698,7 +707,7 @@ main {
        }
 }
 
-/********************** FOOTER***********************/
+/********************** FOOTER **********************/
 .footer {
        background-color: var(--grey);
 }
