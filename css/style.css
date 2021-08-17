@@ -205,11 +205,14 @@ main {
        background-color: var(--grey);
        border-radius: 0.8em 0 0 0.8em;
 }
-input[type="search"] {
-       width: 70%;
-       font-family: var(--font);
-       padding: 0px 30px 0px 9px;
-       font-size: 0.795em;
+.form_input {
+    width: 70%;
+    font-family: var(--font);
+    padding: 0px 30px 0px 9px;
+    font-size: 0.795em;
+    border-color: #f1f1f1;
+    border-width: thin;
+    border-style: solid;
 }
 .submit_btn {
        border: none;
