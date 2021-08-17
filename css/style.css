@@ -206,18 +206,6 @@ main {
        border-radius: 0.8em 0 0 0.8em;
        border: 1px solid var(--grey);
 }
-.form_input{
-       width: 70%;
-       font-family: var(--font);
-       font-size: 0.795em;
-       padding: 14px;
-       border-radius: 0px;
-}
-.form_input:focus {
-       outline: none;
-       border-color: var(--blue);
-       padding-right:35px;
-}
 .submit_btn {
        border: none;
        border-radius: 14px;
