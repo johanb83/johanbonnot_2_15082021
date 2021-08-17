@@ -218,10 +218,6 @@ main {
        outline: none;
        border-color: var(--blue);
 }
-.form_input::placeholder {
-       font-family: var(--font);
-       color: var(--black);
-}
 .submit_btn {
        border: none;
        border-radius: 14px;
@@ -393,10 +389,10 @@ main {
 }
 .hosts_card {
        display: block;
-       max-width: 550px;
+       max-width: 500px;
        height: 180px;
        border-radius: 13px;
-       margin-bottom: 12px;
+       margin: 0 auto 15px auto;
        box-shadow: 0 8px 15px #00000020;
        background-color: #fff;
        padding:5px;
@@ -475,10 +471,10 @@ main {
 }
 .pop_hosts_card {
        display: flex;
-       max-width: 550px;
+       max-width: 500px;
        height: 180px;
        border-radius: 13px;
-       margin-bottom: 12px;
+       margin: 0 auto 15px auto;
        box-shadow: 0 8px 15px #00000020;
        background-color: #fff;
        padding:5px;
@@ -598,11 +594,11 @@ main {
        margin-bottom: 20px;
 }
 .activities_large_card, .activities_medium_card, .activities_small_card,.activities_x_small_card {
-       max-width: 550px;
+       max-width: 500px;
        height: 200px;
        display: block;
        border-radius: 13px;
-       margin-bottom: 12px;
+       margin: 0 auto 15px auto;
        box-shadow: 0 8px 15px #00000020;
        background-color: #fff;
        padding:5px;
