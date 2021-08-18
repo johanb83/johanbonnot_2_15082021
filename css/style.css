@@ -205,6 +205,10 @@ main {
        background-color: var(--grey);
        border-radius: 0.8em 0 0 0.8em;
 }
+input[type="search"]{
+       -webkit-appearance: inherit;
+       -moz-appearance: inherit;
+}
 .form_input {
     width: 70%;
     font-family: var(--font);
